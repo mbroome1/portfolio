@@ -15,13 +15,13 @@ export default function Hero() {
                 </div>
                 <div className="flex items-center">
                     <div className="container">
-                        <p className="text-gray-800 text-3xl mt-10">Hello, I{'\''}m</p>
-                        <h1 className="text-blue-700 text-5xl sm:text-6xl my-4 ">Michael Broome</h1>
-                        <h2 className="text-gray-700 text-3xl font-semibold mb-4">Web Developer & IT Support</h2>
-                        <h3 className="text-gray-700 text-xl mb-4">Wellington, New Zealand</h3>
+                        <p className="text-gray-800 text-xl md:text-3xl mt-10">Hello, I{'\''}m</p>
+                        <h1 className="text-blue-700 text-3xl md:text-5xl sm:text-6xl my-4 ">Michael Broome</h1>
+                        <h2 className="text-gray-700 text-2xl md:text-3xl font-semibold mb-4">Web Developer & IT Support</h2>
+                        <h3 className="text-gray-700 text-lg md:text-xl mb-4">Wellington, New Zealand</h3>
 
                         
-                        <p className="py-12 text-2xl text-gray-700 ">Welcome to my newly created website!</p>
+                        <p className="py-12 text-xl md:text-2xl text-gray-700 ">Welcome to my newly created website!</p>
                     </div>
                 </div>
             </div>

@@ -57,7 +57,7 @@
 }
 
 .skill img {
-  @apply object-contain w-full h-full
+  @apply object-contain w-full h-full p-1
 }
 
 .skill h4 {
