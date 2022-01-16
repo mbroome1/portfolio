@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Projects() {
     return (
@@ -10,13 +10,18 @@ export default function Projects() {
                     {/* Project 1` */}
                     <div className="sm:basis-1/2 xl:basis-1/3 shadow">
                         <div className="relative w-46 h-96">
-                            <Image 
+                            {/* <Image 
                                 src={"/images/store-catalogue.jpg"} 
                                 alt="Profile picture" 
                                 layout="fill" 
                                 objectFit="cover"
                                 objectPosition="top"
                                 className="relative"
+                            /> */}
+                            <img 
+                                src={"/images/store-catalogue.jpg"} 
+                                alt="Project picture" 
+                                className="relative object-cover object-top w-full h-full"
                             />
                         </div>
                         <div className="p-2 bg-white">
@@ -31,7 +36,7 @@ export default function Projects() {
                                 <div className="flex justify-between">
                                     <h4 className="text-gray-600 font-semibold text-lg">Frontend:</h4>
                                     <a href="" className="code-link">
-                                        <Image src={"/images/svg/github-icon.svg"} width={18} height={18} alt="html 5" objectFit="contain" />
+                                        <ion-icon name="logo-github"></ion-icon>
                                         <span className="pl-2">View code </span>
                                     </a>
                                 </div>
@@ -48,7 +53,7 @@ export default function Projects() {
                                 <div className="flex justify-between">
                                     <h4 className="text-gray-600 font-semibold text-lg">Backend:</h4>
                                     <a href="" className="code-link">
-                                        <Image src={"/images/svg/github-icon.svg"} width={18} height={18} alt="html 5" objectFit="contain" />
+                                        <ion-icon name="logo-github"></ion-icon>
                                         <span className="pl-2">View code </span>
                                     </a>
                                 </div>
