@@ -1,11 +1,15 @@
 function Footer() {
     return (
-        <footer className="p-6 text-center text-gray-300 bg-gray-600">
-            <p>Created by Michael Broome &copy;</p>
-            <div className="mt-4 text-3xl space-x-4 text-center">
-            <ion-icon name="logo-linkedin"></ion-icon>
-            <ion-icon name="logo-github"></ion-icon>
-            </div>
+        <footer className="p-3 text-center text-gray-200 border-t bg-gray-500">
+            <p className="mt-2">Website created by Michael Broome - &copy; 2022</p>
+            <div className="m-4 flex space-x-6 justify-center">
+                    <a className="text-4xl text-gray-300" href="">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a className="text-4xl text-gray-300" href="">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
         </footer>
     )
 }

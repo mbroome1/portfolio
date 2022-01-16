@@ -11,11 +11,6 @@ export default function Layout({ children, home, name }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="michael broome web developer portfolio"
-        />
       </Head>
       <Header />
       <main className="">
