@@ -6,13 +6,11 @@ export default function Hero() {
             <div className="hero text-center container py-12 mx-auto md:flex md:text-left md:justify-center">
                 <div className="flex items-center md:pr-12">
                     <div className="container flex justify-center">
-                        <div className="relative w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 border border-white rounded-full shadow-2xl shadow-gray-500">
-                            <Image 
+                        <div className="relative w-32 h-32 md:w-48 md:h-48 border border-white rounded-full shadow-2xl shadow-gray-500">
+                            <img 
                                 src={"/images/profile.jpg"} 
                                 alt="Profile picture" 
-                                objectFit='cover'
-                                layout='fill'
-                                className="relative rounded-full"
+                                className="relative rounded-full object-cover w-full h-full"
                             />
                         </div>
                     </div>
