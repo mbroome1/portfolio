@@ -5,10 +5,10 @@ function About() {
                 <h1 className="text-3xl text-gray-700 text-center ">About</h1>
 
                 <div className="mt-6 flex space-x-6 justify-center">
-                    <a className="text-4xl text-blue-700" href="">
+                    <a className="text-4xl text-blue-700" href="https://www.linkedin.com/in/michael-broome-3373b9a7/" target={"_blank"}>
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
-                    <a className="text-4xl text-gray-700" href="">
+                    <a className="text-4xl text-gray-700" href="https://github.com/mbroome1" target={"_blank"}>
                         <ion-icon name="logo-github"></ion-icon>
                     </a>
                 </div>
