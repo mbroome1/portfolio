@@ -1,14 +1,15 @@
 function About() {
     return (
         <div className="wrapper">
+            <a id="about" className="absolute -mt-30"></a>
             <div className="my-12 max-w-4xl mx-auto">
                 <h1 className="text-3xl text-gray-700 text-center ">About</h1>
 
                 <div className="mt-6 flex space-x-6 justify-center">
-                    <a className="text-4xl text-blue-700" href="https://www.linkedin.com/in/michael-broome-3373b9a7/" target={"_blank"}>
+                    <a className="text-4xl text-blue-700" href="https://www.linkedin.com/in/michael-broome-3373b9a7/" target={"_blank"} rel="noreferrer">
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </a>
-                    <a className="text-4xl text-gray-700" href="https://github.com/mbroome1" target={"_blank"}>
+                    <a className="text-4xl text-gray-700" href="https://github.com/mbroome1" target={"_blank"} rel="noreferrer">
                         <ion-icon name="logo-github"></ion-icon>
                     </a>
                 </div>

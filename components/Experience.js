@@ -1,6 +1,7 @@
 export default function Experience() {
     return (
         <div className="wrapper bg-white">
+            <a id="experience" className="absolute -mt-30"></a>
             <div className="my-12 max-w-4xl mx-auto">
                 
                 <h1 className="text-3xl text-gray-700 text-center">Experience</h1>

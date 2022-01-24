@@ -1,6 +1,7 @@
 export default function Hero() {
     return (
         <div className="bg-gray-50">
+            <a id="home" className="absolute -mt-36"></a>
             <div className="hero text-center container py-12 mx-auto md:flex md:text-left md:justify-center">
                 <div className="flex items-center md:pr-12">
                     <div className="container flex justify-center">

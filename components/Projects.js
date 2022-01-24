@@ -3,6 +3,7 @@
 export default function Projects() {
     return (
         <div className="wrapper bg-white">
+            <a id="projects" className="absolute -mt-30"></a>
             <div className="my-12">
                 <h1 className="text-3xl text-gray-700 text-center">Projects</h1>
 
@@ -29,7 +30,7 @@ export default function Projects() {
                         <div className="p-2">
                             <div className="mt-12 flex items-center justify-between">
                                 <h2 className="text-xl text-gray-700 uppercase">E-commerce store</h2>
-                                <a href="https://www.mbroome.nz/store/" target={"_blank"} className="code-btn">View Demo</a>
+                                <a href="https://www.mbroome.nz/store/" target={"_blank"} rel="noreferrer" className="code-btn">View Demo</a>
                             </div>
                             <div>
                                 <p className="text-gray-400 text-left mt-4">Login: test // test</p>
@@ -37,7 +38,7 @@ export default function Projects() {
                             <div className="mt-6">
                                 <div className="flex justify-between">
                                     <h4 className="text-gray-600 font-semibold text-lg">Frontend:</h4>
-                                    <a href="https://github.com/mbroome1/ecommerce-store-client" target={"_blank"} className="code-link">
+                                    <a href="https://github.com/mbroome1/ecommerce-store-client" target={"_blank"} rel="noreferrer" className="code-link">
                                         <ion-icon name="logo-github"></ion-icon>
                                         <span className="pl-2">View code </span>
                                     </a>
@@ -54,7 +55,7 @@ export default function Projects() {
                             <div className="mt-8">
                                 <div className="flex justify-between">
                                     <h4 className="text-gray-600 font-semibold text-lg">Backend:</h4>
-                                    <a href="https://github.com/mbroome1/ecommerce-store-server" target={"_blank"} className="code-link">
+                                    <a href="https://github.com/mbroome1/ecommerce-store-server" target={"_blank"} rel="noreferrer" className="code-link">
                                         <ion-icon name="logo-github"></ion-icon>
                                         <span className="pl-2">View code </span>
                                     </a>
@@ -92,7 +93,7 @@ export default function Projects() {
                         <div className="p-2">
                             <div className="mt-12 flex items-center justify-between">
                                 <h2 className="text-xl text-gray-700 uppercase">Redux Cart</h2>
-                                <a href="https://www.mbroome.nz/cart/" target={"_blank"} className="code-btn" >View Demo</a>
+                                <a href="https://www.mbroome.nz/cart/" target={"_blank"} rel="noreferrer" className="code-btn" >View Demo</a>
                             </div>
                             <div>
                                 <p className="text-gray-400 text-left mt-4">My first react app, created for the purpose of learning react with redux state management.</p>
@@ -100,7 +101,7 @@ export default function Projects() {
                             <div className="mt-6">
                                 <div className="flex justify-between">
                                     <h4 className="text-gray-600 font-semibold text-lg">Frontend:</h4>
-                                    <a href="https://github.com/mbroome1/shopping-cart-redux/" target={"_blank"} className="code-link">
+                                    <a href="https://github.com/mbroome1/shopping-cart-redux/" target={"_blank"} rel="noreferrer" className="code-link">
                                         <ion-icon name="logo-github"></ion-icon>
                                         <span className="pl-2">View code </span>
                                     </a>

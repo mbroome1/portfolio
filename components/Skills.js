@@ -1,6 +1,7 @@
 export default function Skills() {
     return (
         <div className="wrapper bg-white">
+            <a id="interests" className="absolute -mt-30"></a>
             <div className="my-12">
                 <h1 className="text-3xl text-gray-700 text-center">Technologies of Interest</h1>
 
