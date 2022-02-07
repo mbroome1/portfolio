@@ -76,7 +76,7 @@ export default function Skills() {
                     </div>
                     <div className="skill">
                         <img src={"/images/svg/dotnet-core.svg"} />                
-                        <h4>.NET core</h4>                
+                        <h4>.NET Core</h4>                
                     </div>
                     <div className="skill">
                         <img src={"/images/svg/microsoft-azure.svg"} />                
