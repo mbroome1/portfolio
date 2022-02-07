@@ -96,7 +96,7 @@ export default function Projects() {
                                 <a href="https://www.mbroome.nz/cart/" target={"_blank"} rel="noreferrer" className="code-btn" >View Demo</a>
                             </div>
                             <div>
-                                <p className="text-gray-400 text-left mt-4">My first react app, created for the purpose of learning react with redux state management.</p>
+                                <p className="text-gray-500 text-left mt-4">My first react app, created for the purpose of learning react with redux state management.</p>
                             </div>
                             <div className="mt-6">
                                 <div className="flex justify-between">
