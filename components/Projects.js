@@ -34,7 +34,7 @@ export default function Projects() {
                             </div>
                             <div>
                                 <p className="text-gray-500 text-left mt-4">Login: test // test</p>
-                                <p className="mt-4 text-gray-500">Second react app, expanding the 'redux cart' project. Adding a Rest API backend for login functionality and cart storage.</p>
+                                <p className="mt-4 text-gray-500">Second react app, expanding the {'\''}redux cart{'\''} project. Adding a Rest API backend for login functionality and cart storage using a database.</p>
                             </div>
                             <div className="mt-6">
                                 <div className="flex justify-between">

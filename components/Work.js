@@ -13,8 +13,8 @@ export default function Work() {
                         <div className="basis-2/3">
                             <div>
                                 <h2 className="text-2xl text-gray-700">The Uniform Centre</h2>
-                                <div class="mt-3">
-                                    <a href="https://www.uniform-centre.co.nz" target="_blank" class="code-link mt-3">View Website</a>
+                                <div className="mt-3">
+                                    <a href="https://www.uniform-centre.co.nz" target="_blank" rel="noreferrer" className="code-link mt-3">View Website</a>
                                 </div>
 
                                 <div className="my-12 pr-4 lg:pr-24">
@@ -35,11 +35,11 @@ export default function Work() {
                                 <h3 className="text-lg text-gray-600 mt-1">Meeting Change - Book</h3>
 
                                 <div className="mt-3">
-                                    <a href="https://www.meetingchange.nz" target="_blank" class="code-link mt-3">View Website</a>
+                                    <a href="https://www.meetingchange.nz" target="_blank" rel="noreferrer" className="code-link mt-3">View Website</a>
                                     <span className='pl-3 text-sm text-gray-500'>(Stage 1 - Register Interest)</span>
                                 </div>
                                 <div>
-                                    <a href="https://bookers.nz/other/mike/nzmb" target="_blank" class="code-link mt-3">View In-development Website</a>
+                                    <a href="https://bookers.nz/other/mike/nzmb" target="_blank" rel="noreferrer" className="code-link mt-3">View In-development Website</a>
                                     <span className='pl-3 text-sm text-gray-500'>(Stage 2 - Pre-order)</span>
                                 </div>
                                

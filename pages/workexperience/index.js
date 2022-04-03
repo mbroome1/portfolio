@@ -5,9 +5,9 @@ export default function Home() {
     return (
         <>
             <Link href="/">
-                <a  class="code-link">Back to Portfolio</a>
+                <a className="code-link">Back to Portfolio</a>
             </Link>
-            <h2 class="text-4xl">Work Experience</h2>
+            <h2 className="text-4xl">Work Experience</h2>
         </>
 
     )
