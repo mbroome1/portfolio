@@ -7,37 +7,48 @@ export default function Work() {
             <div className="my-12 max-w-4xl mx-auto">
                 <h1 className="text-3xl text-gray-700 text-center">Work Experience</h1>
 
-                <div className="my-12 container mx-auto">   
-                    <div className="flex">
+                <div className="my-12 container mx-auto text-gray-700"> 
+
+                    <div className="flex flex-col md:flex-row">
                         <div className="basis-2/3">
                             <div>
                                 <h2 className="text-2xl text-gray-700">The Uniform Centre</h2>
-                                <a href="https://www.uniform-centre.co.nz" target="_blank" class="code-link mt-3">View Website</a>
+                                <div class="mt-3">
+                                    <a href="https://www.uniform-centre.co.nz" target="_blank" class="code-link mt-3">View Website</a>
+                                </div>
 
-                                <div className="mt-12">
-                                    <p class="mt-3">Description goes here</p>
+                                <div className="my-12 pr-4 lg:pr-24">
+                                    <p className="mt-3">Creating a fresh new look using modern html,css and javascript to compliment a major backend overhaul.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="basis-1/3 p-2 bg-gray-500 rounded shadow-lg">
+                        <div className="basis-1/3 p-1 md:p-2 bg-gray-500 rounded shadow-lg shadow-gray-400">
                             <img src={"/images/uniform-centre_home.jpg"}  alt="" className="relative object-cover object-top w-full h-full" />
                         </div>
                     </div>
 
 
-                    <div className="flex flex-row mt-24">
+                    <div className="flex flex-col md:flex-row mt-24">
                         <div className="basis-2/3">
                             <div>
                                 <h2 className="text-2xl text-gray-700">New Zealand Meatboard</h2>
                                 <h3 className="text-lg text-gray-600 mt-1">Meeting Change - Book</h3>
-                                <a href="https://www.meetingchange.nz" target="_blank" class="code-link mt-3">View Website</a>
+
+                                <div className="mt-3">
+                                    <a href="https://www.meetingchange.nz" target="_blank" class="code-link mt-3">View Website</a>
+                                    <span className='pl-3 text-sm text-gray-500'>(Stage 1 - Register Interest)</span>
+                                </div>
+                                <div>
+                                    <a href="https://bookers.nz/other/mike/nzmb" target="_blank" class="code-link mt-3">View In-development Website</a>
+                                    <span className='pl-3 text-sm text-gray-500'>(Stage 2 - Pre-order)</span>
+                                </div>
                                
-                                <div className="mt-12">
-                                    <p class="mt-3">Desciption goes here</p>
+                                <div className="my-12 pr-4 lg:pr-24">
+                                    <p className="mt-3 text-g">Creating a single page website for ordering a soon to be released book on behalf of New Zealand Meatboard.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="basis-1/3 p-2 bg-gray-500 rounded shadow-lg">
+                        <div className="basis-1/3 p-1 md:p-2 bg-gray-500 rounded shadow-lg shadow-gray-400">
                             <img src={"/images/meeting-change_home.jpg"}  alt="" className="relative object-cover object-top w-full h-full" />
                         </div>
                     </div>

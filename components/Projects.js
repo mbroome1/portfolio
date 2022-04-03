@@ -11,7 +11,7 @@ export default function Projects() {
 
 
                     {/* Project 1` */}
-                    <div className="sm:basis-1/2 xl:basis-1/3 shadow m-2 mb-8 md:m-4 md:mb-12">
+                    <div className="sm:basis-1/2 xl:basis-1/3 m-2 mb-8 md:m-4 md:mb-12">
                         <div className="relative w-46 h-96">
                             {/* <Image 
                                 src={"/images/store-catalogue.jpg"} 
@@ -33,7 +33,8 @@ export default function Projects() {
                                 <a href="https://www.mbroome.nz/store/" target={"_blank"} rel="noreferrer" className="code-btn">View Demo</a>
                             </div>
                             <div>
-                                <p className="text-gray-400 text-left mt-4">Login: test // test</p>
+                                <p className="text-gray-500 text-left mt-4">Login: test // test</p>
+                                <p className="mt-4 text-gray-500">Second react app, expanding the 'redux cart' project. Adding a Rest API backend for login functionality and cart storage.</p>
                             </div>
                             <div className="mt-6">
                                 <div className="flex justify-between">
@@ -74,7 +75,7 @@ export default function Projects() {
                     </div>
 
                     {/* Project 2` */}
-                    <div className="sm:basis-1/2 xl:basis-1/3 shadow  m-2 mb-8 md:m-4 md:mb-12">
+                    <div className="sm:basis-1/2 xl:basis-1/3 m-2 mb-8 mt-24 lg:mt-4 md:m-4 md:mb-12">
                         <div className="relative w-46 h-96">
                             {/* <Image 
                                 src={"/images/store-catalogue.jpg"} 
