@@ -22,7 +22,7 @@ export default function Work() {
                                 </div>
                             </div>
                         </div>
-                        <div className="basis-1/3 p-1 md:p-2 bg-gray-500 rounded shadow-lg shadow-gray-400">
+                        <div className="basis-1/3 rounded shadow-lg shadow-gray-400">
                             <img src={"/images/uniform-centre_home.jpg"}  alt="" className="relative object-cover object-top w-full h-full" />
                         </div>
                     </div>
@@ -36,19 +36,14 @@ export default function Work() {
 
                                 <div className="mt-3">
                                     <a href="https://www.meetingchange.nz" target="_blank" rel="noreferrer" className="code-link mt-3">View Website</a>
-                                    <span className='pl-3 text-sm text-gray-500'>(Stage 1 - Register Interest)</span>
                                 </div>
-                                <div>
-                                    <a href="https://bookers.nz/other/mike/nzmb" target="_blank" rel="noreferrer" className="code-link mt-3">View In-development Website</a>
-                                    <span className='pl-3 text-sm text-gray-500'>(Stage 2 - Pre-order)</span>
-                                </div>
-                               
+
                                 <div className="my-12 pr-4 lg:pr-24">
-                                    <p className="mt-3 text-g">Creating a single page website for ordering a soon to be released book on behalf of New Zealand Meatboard.</p>
+                                    <p className="mt-3 text-g">Creating a single page website for ordering a newly released book on behalf of New Zealand Meatboard.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="basis-1/3 p-1 md:p-2 bg-gray-500 rounded shadow-lg shadow-gray-400">
+                        <div className="basis-1/3 rounded shadow-lg shadow-gray-400">
                             <img src={"/images/meeting-change_home.jpg"}  alt="" className="relative object-cover object-top w-full h-full" />
                         </div>
                     </div>
