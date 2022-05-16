@@ -1,2 +1,2 @@
-# PortFolio Website.
+# Portfolio Website.
 Content coming soon
