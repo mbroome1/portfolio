@@ -35,7 +35,7 @@ export default function Projects() {
                                 {/* <a href="https://www.mbroome.nz/cart/" target={"_blank"} rel="noreferrer" className="code-btn" >View Demo</a> */}
                             </div>
                             <div>
-                                <p className="text-gray-500 text-left mt-4">Recipe search app using Spoonacular's external food API. .Net Core 6 - C# Web API, React UI. Prototyped Styling with Bootstrap CSS.</p>
+                                <p className="text-gray-500 text-left mt-4">Recipe search app using Spoonacular&apos;s external food API, .NET Core 6 Web API using C#, React UI. Prototyped Styling with Bootstrap CSS.</p>
                             </div>
                             <div className="mt-6">
                                 <div className="flex justify-between">
@@ -59,7 +59,7 @@ export default function Projects() {
                                     <h4 className="text-gray-600 font-semibold text-lg">Backend:</h4>
                                 </div>
                                 <ul className="skills-list">
-                                    <li>.Net Core 6</li>
+                                    <li>.NET Core 6</li>
                                     <li>C#</li>
                                 </ul>
                             </div>
