@@ -18,9 +18,9 @@ function About() {
                     <p className="py-2 leading-normal">A <span className="font-semibold">Full Stack Web Developer</span> with working experience in supporting and creating websites.</p>
                     <p className="py-2 leading-normal">I am passionate about learning new technologies. In my free time I have been learning how to create backend web APIs while using frontend clients for interaction.</p>
                     <p className="py-2 leading-normal">
-                        Recent skills acquired include: <span className="font-semibold">Node.js</span>, <span className="font-semibold">React + Redux</span>, modern <span className="font-semibold">Javascript</span>, <span className="font-semibold">REST APIs</span>, and setting up a cloud environment in <span className="font-semibold">Microsoft Azure</span> for my code to live. Next I will be focusing on creating APIs with <span className="font-semibold">.NET Core</span> using <span className="font-semibold">C#</span>.</p>
+                        Recent skills acquired include: <span className="font-semibold">Node.js</span>, <span className="font-semibold">React + Redux</span>, modern <span className="font-semibold">JavaScript</span>, <span className="font-semibold">REST APIs</span>, and setting up a cloud environment in <span className="font-semibold">Microsoft Azure</span> for my code to live. Currently I am learning how to create APIs with <span className="font-semibold">.NET Core</span> using <span className="font-semibold">C#</span>, and deploying apps in <span className="font-semibold">Docker</span> containers.</p>
                     <p className="py-2 leading-normal">I hold a <span className="font-semibold">Bachelor{'\''}s Degree in Commerce and Administration</span> with majors in <span className="font-semibold">Information Systems</span> and <span className="font-semibold">E-Commerce</span> from <span className="font-semibold">Victoria University of Wellington</span>.</p>
-                    <p className="py-4 leading-normal">I am eager to pursue the next stage in my career as a developer!</p>
+                    <p className="py-4 leading-normal">Currently seeking new employment opportunities.</p>
                 </div>
             </div>
             

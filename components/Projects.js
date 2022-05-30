@@ -2,7 +2,7 @@
 
 export default function Projects() {
     return (
-        <div className="wrapper bg-white">
+        <div className="wrapper bg-gray-50">
             <a id="projects" className="absolute -mt-30"></a>
             <div className="my-12">
                 <h1 className="text-3xl text-gray-700 text-center">Projects</h1>
@@ -10,7 +10,7 @@ export default function Projects() {
                 <div className="mt-12 container mx-auto lg:flex justify-center">
 
                     {/* Project 1 */}
-                    <div className="sm:basis-1/2 xl:basis-1/3 m-2 mb-8 mt-24 lg:mt-4 md:m-4 md:mb-12 shadow">
+                    <div className="sm:basis-1/2 xl:basis-1/3 m-2 mb-8 mt-24 lg:mt-4 md:m-4 md:mb-12 shadow bg-white">
                         <div className="relative w-46 h-96">
                             {/* <Image 
                                 src={"/images/store-catalogue.jpg"} 
@@ -30,12 +30,13 @@ export default function Projects() {
                             <div className="mt-12"> {/* flex items-center justify-between */}
                                 <h2 className="text-xl text-gray-700 uppercase">React Recipes</h2>
                                 <div className="text-right md:py-2">
-                                    <p className="text-gray-600 bg-gray-100 p-2 rounded inline-block">Demo TBC</p>
+                                    <a href="https://www.mbroome.nz/reactrecipes/" target={"_blank"} rel="noreferrer" className="code-btn">View Demo</a>
+                                    {/* <p className="text-gray-600 bg-gray-100 p-2 rounded inline-block">Demo TBC</p> */}
                                 </div>
                                 {/* <a href="https://www.mbroome.nz/cart/" target={"_blank"} rel="noreferrer" className="code-btn" >View Demo</a> */}
                             </div>
                             <div>
-                                <p className="text-gray-500 text-left mt-4">Recipe search app using Spoonacular&apos;s external food API, .NET Core 6 Web API using C#, React UI. Prototyped Styling with Bootstrap CSS.</p>
+                                <p className="text-gray-500 text-left mt-4">Recipe search app using Spoonacular&apos;s external food API, .NET Core 6 Web API using C#, React UI, and Bootstrap with custom CSS.</p>
                             </div>
                             <div className="mt-6">
                                 <div className="flex justify-between">
@@ -48,7 +49,7 @@ export default function Projects() {
 
                                 <ul className="skills-list">
                                     <li>React</li>
-                                    <li>Javascript</li>
+                                    <li>JavaScript</li>
                                     <li>Bootstrap</li>
                                     <li>CSS</li>
                                     <li>JSON</li>
@@ -59,8 +60,9 @@ export default function Projects() {
                                     <h4 className="text-gray-600 font-semibold text-lg">Backend:</h4>
                                 </div>
                                 <ul className="skills-list">
-                                    <li>.NET Core 6</li>
+                                    <li>.NET 6</li>
                                     <li>C#</li>
+                                    <li>Docker</li>
                                 </ul>
                             </div>
                         </div>
@@ -68,7 +70,7 @@ export default function Projects() {
                     </div>
 
                     {/* Project 2 */}
-                    <div className="sm:basis-1/2 xl:basis-1/3 m-2 mb-8 md:m-4 md:mb-12 shadow">
+                    <div className="sm:basis-1/2 xl:basis-1/3 m-2 mb-8 md:m-4 md:mb-12 shadow bg-white">
                         <div className="relative w-46 h-96">
                             {/* <Image 
                                 src={"/images/store-catalogue.jpg"} 
@@ -93,7 +95,7 @@ export default function Projects() {
                             </div>
                             <div>
                                 <p className="text-gray-500 text-left mt-4">Login: test // test</p>
-                                <p className="mt-4 text-gray-500">Second react app, expanding the {'\''}redux cart{'\''} project. Adding a Rest API backend for login functionality and cart storage using a database.</p>
+                                <p className="mt-4 text-gray-500">Second React app, expanding the {'\''}Redux Cart{'\''} project. Adding a Rest API backend for login functionality and cart storage using a database.</p>
                             </div>
                             <div className="mt-6">
                                 <div className="flex justify-between">
@@ -107,7 +109,7 @@ export default function Projects() {
                                 <ul className="skills-list">
                                     <li>React</li>
                                     <li>Redux Toolkit</li>
-                                    <li>Javascript</li>
+                                    <li>JavaScript</li>
                                     <li>Axios</li>
                                     <li>Material UI</li>
                                 </ul>
@@ -122,7 +124,7 @@ export default function Projects() {
                                 </div>
                                 <ul className="skills-list">
                                     <li>Node.js</li>
-                                    <li>Javascript</li>
+                                    <li>JavaScript</li>
                                     <li>Sequelize ORM</li>
                                     <li>PostgreSQL</li>
                                     <li>JWT Authentication</li>
@@ -134,7 +136,7 @@ export default function Projects() {
                     </div>
 
                     {/* Project 3 */}
-                    <div className="sm:basis-1/2 xl:basis-1/3 m-2 mb-8 mt-24 lg:mt-4 md:m-4 md:mb-12 shadow">
+                    <div className="sm:basis-1/2 xl:basis-1/3 m-2 mb-8 mt-24 lg:mt-4 md:m-4 md:mb-12 shadow bg-white">
                         <div className="relative w-46 h-96">
                             {/* <Image 
                                 src={"/images/store-catalogue.jpg"} 
@@ -158,7 +160,7 @@ export default function Projects() {
                                 </div>
                             </div>
                             <div>
-                                <p className="text-gray-500 text-left mt-4">My first react app, created for the purpose of learning react with redux state management.</p>
+                                <p className="text-gray-500 text-left mt-4">My first React app, created for the purpose of learning React with Redux state management between components.</p>
                             </div>
                             <div className="mt-6">
                                 <div className="flex justify-between">
@@ -173,7 +175,7 @@ export default function Projects() {
                                     <li>React</li>
                                     <li>Redux</li>
                                     <li>React Router</li>
-                                    <li>Javascript</li>
+                                    <li>JavaScript</li>
                                     <li>CSS</li>
                                     <li>SCSS</li>
                                 </ul>

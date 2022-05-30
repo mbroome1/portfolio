@@ -18,7 +18,7 @@ export default function Work() {
                                 </div>
 
                                 <div className="my-12 pr-4 lg:pr-24">
-                                    <p className="mt-3">Creating a fresh new look using modern html,css and javascript to compliment a major backend overhaul.</p>
+                                    <p className="mt-3">Creating a fresh new look using modern HTML, CSS and JavaScript to compliment a major backend overhaul.</p>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ export default function Work() {
                                 </div>
 
                                 <div className="my-12 pr-4 lg:pr-24">
-                                    <p className="mt-3 text-g">Creating a single page website for ordering a newly released book on behalf of New Zealand Meatboard.</p>
+                                    <p className="mt-3 text-g">Developed a single page website for ordering a newly released book on behalf of New Zealand Meatboard through their agent.</p>
                                 </div>
                             </div>
                         </div>

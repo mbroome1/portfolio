@@ -16,7 +16,7 @@ export default function Skills() {
                     </div>
                     <div className="skill">
                         <img src={"/images/svg/javascript.svg"} />                
-                        <h4>Javascript</h4>                
+                        <h4>JavaScript</h4>                
                     </div>
                     <div className="skill">
                         <img src={"/images/svg/tailwindcss-icon.svg"} />                
