@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 Thumbs.db
+*/*.env
 
 # Vite App
 app/node_modules/
