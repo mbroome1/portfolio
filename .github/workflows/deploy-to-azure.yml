@@ -17,16 +17,16 @@ on:
   #   branches: ["main"]
   push:
     branches: [ "main" ]
-  paths:
-   - 'app/**'
-   - '.github/workflows/**'
+    paths:
+    - 'app/**'
+    - '.github/workflows/**'
 
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches: [ "main" ]
-  paths:
-   - 'app/**'
-   - '.github/workflows/**'
+    paths:
+    - 'app/**'
+    - '.github/workflows/**'
   
 # Environment variables available to all jobs and steps in this workflow
 env:
