@@ -13,24 +13,20 @@
 name: Deploy web app to Azure Static Web Apps
 
 on:
-  workflow_dispatch:
-    branches: ["main"]
+  # workflow_dispatch:
+  #   branches: ["main"]
+  push:
+    branches: [ "main" ]
+  paths:
+   - 'app/**'
+   - '.github/workflows/**'
 
-  # COMMENTED OUT FOR FUTURE
-  # disabled push and pull_request until it is set up
-
-  # push:
-  #   branches: [ "main" ]
-  # paths:
-  #  - 'app/**'
-  #  - '.github/workflows/**'
-
-  # pull_request:
-  #   types: [opened, synchronize, reopened, closed]
-  #   branches: [ "main" ]
-  # paths:
-  #  - 'app/**'
-  #  - '.github/workflows/**'
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches: [ "main" ]
+  paths:
+   - 'app/**'
+   - '.github/workflows/**'
   
 # Environment variables available to all jobs and steps in this workflow
 env:
